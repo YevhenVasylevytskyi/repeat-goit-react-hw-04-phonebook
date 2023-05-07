@@ -1,0 +1,47 @@
+.form {
+    width: 238px;
+    padding: 25px 15px;
+    border: 1px solid blue;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    margin-bottom: 20px;
+    color: blue;
+}
+
+.input {
+    margin-left: 20px;
+    outline: none;
+    border: 1px solid blue;
+}
+
+.input:hover,
+.input:focus,
+.input_number:hover,
+.input_number:focus {
+    border: 1px solid red;
+}
+
+.input_number {
+    margin-left: 5px;
+    outline: none;
+    border: 1px solid blue;
+}
+
+.button {
+    padding: 2px 6px;
+    color: blue;
+    border: 1px solid blue;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: red;
+    border: 1px solid red;
+}

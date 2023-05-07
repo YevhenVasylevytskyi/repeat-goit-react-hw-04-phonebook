@@ -1,0 +1,29 @@
+.list {
+    width: 325px;
+    padding-left: 20px;
+    color: blue;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.button {
+    padding: 3px 5px;
+    color: blue;
+    border: 1px solid grey;
+    cursor: pointer;
+    outline: none;
+    font-size: 14px;
+}
+
+.button:hover,
+.button:focus {
+    background-color: red;
+    border: 1px solid red;
+}
